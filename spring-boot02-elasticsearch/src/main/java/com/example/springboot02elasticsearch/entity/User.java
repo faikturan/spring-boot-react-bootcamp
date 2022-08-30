@@ -19,7 +19,7 @@ import java.util.Date;
 public class User {
 
     @Id
-    private String id;
+    private String userId;
 
     @Field(name = "name", type= FieldType.Text)
     private String name;

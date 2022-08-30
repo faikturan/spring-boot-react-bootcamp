@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-boot01-helloworld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot01-helloworld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot02-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot02-elasticsearch/src/main/resources" charset="UTF-8" />
   </component>
 </project>

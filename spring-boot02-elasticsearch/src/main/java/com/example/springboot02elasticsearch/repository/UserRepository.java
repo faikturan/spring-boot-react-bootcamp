@@ -3,6 +3,7 @@ package com.example.springboot02elasticsearch.repository;
 import com.example.springboot02elasticsearch.entity.User;
 import org.springframework.data.elasticsearch.annotations.Query;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
