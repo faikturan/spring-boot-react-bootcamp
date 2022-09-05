@@ -8,18 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot01-helloworld" />
+        <module name="spring-boot06-aop" />
         <module name="spring-boot02-elasticsearch" />
+        <module name="spring-boot07-graphQL" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot01-helloworld" target="11" />
-      <module name="spring-boot02-elasticsearch" target="11" />
+      <module name="spring-boot02-elasticsearch" target="16.0.1" />
+      <module name="spring-boot06-aop" target="11" />
+      <module name="spring-boot07-graphQL" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot01-helloworld" options="-parameters" />
       <module name="spring-boot02-elasticsearch" options="-parameters" />
+      <module name="spring-boot06-aop" options="-parameters" />
+      <module name="spring-boot07-graphQL" options="-parameters" />
     </option>
   </component>
 </project>
